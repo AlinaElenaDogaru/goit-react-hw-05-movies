@@ -1,0 +1,33 @@
+/* src/components/Reviews/Reviews.module.css */
+.container {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+.reviewList {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reviewItem {
+    background-color: var(--background-color);
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.reviewItem p {
+    margin: 0;
+}
+
+.reviewItem strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
